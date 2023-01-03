@@ -47,6 +47,11 @@ ul {
     padding: 0;
     overflow: hidden;
   }
+
+  .links{
+    display: inline-block;
+    
+  }
   
   .leftitem {
     float: left;
@@ -77,11 +82,15 @@ ul {
 
   .icons{
     margin-right: 300px;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   object{
     float: right;
     margin: 3px;
+    position: relative; 
+z-index: -1
     
   }
 
